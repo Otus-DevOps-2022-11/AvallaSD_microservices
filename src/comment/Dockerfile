@@ -1,6 +1,6 @@
 FROM ruby:2.2
 
-RUN apt update
+#RUN apt update
 
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
